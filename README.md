@@ -43,15 +43,15 @@ Each div with class `work__box` represents a project, replace the contents of th
 ```html
 <div class="work__box">
     <div class="work__text">
-    <h3>Portfolio Template</h3>
+    <h3>Boston Crime Map: Insights and Analysis</h3>
     <p>
-        A free Open Source Portfolio for anyone to use for free.
+        Boston Crime Map: Insights and Analysis" is a project focused on analyzing and visualizing crime data in Boston. Using geographical data and crime statistics, the project aims to provide insights into crime patterns and trends in the city. Through interactive maps and data visualization techniques, users can explore various aspects of crime incidents, such as types of crimes, locations, and time distributions. The project may uncover patterns that could help law enforcement agencies, policymakers, and residents better understand and address crime-related issues in Boston.
     </p>
     <ul class="work__list">
-        <li>HTML</li>
-        <li>SCSS</li>
-        <li>JavaScript</li>
-        <li>Parcel</li>
+        <li>Python</li>
+        <li>Folium</li>
+        <li>Pandas</li>
+        <li>Geopandas</li>
     </ul>
 
     <div class="work__links">
