@@ -4,7 +4,7 @@
 
 To View the live site click [here &rarr;](https://excellent-story.surge.sh)
 
-![Portfolio Gif](/images/portfolio.gif)
+<!-- ![Portfolio Gif](/images/portfolio.gif) -->
 
 
 
