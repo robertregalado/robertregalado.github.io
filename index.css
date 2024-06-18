@@ -457,7 +457,7 @@ body:not(.user-is-tabbing) a:focus {
 */
 
 .work__box {
-    display: inline-flex;
+    display: grid;
     align-items: center;
     margin-top: 0; /* Ensure there is no margin on top */
     padding-top: 0; /* Ensure there is no padding on top */
@@ -465,10 +465,17 @@ body:not(.user-is-tabbing) a:focus {
     top: 0; /* Ensure the element starts at the top */
 }
 
-@media(max-width: 900px) {
+/*@media(max-width: 900px) {
     .work__box {
         align-items: initial;
         flex-direction: column-reverse;
+    }
+}*/
+
+@media(max-width: 900px) {
+    .work__box {
+        align-items: initial;
+        grid-template-rows: auto 1fr; /* Example: Adjust rows for responsive design */
     }
 }
 
