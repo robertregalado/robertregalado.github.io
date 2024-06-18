@@ -457,7 +457,7 @@ body:not(.user-is-tabbing) a:focus {
 */
 
 .work__box {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     margin-top: 0; /* Ensure there is no margin on top */
     padding-top: 0; /* Ensure there is no padding on top */
