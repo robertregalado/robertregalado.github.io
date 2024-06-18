@@ -450,9 +450,19 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Work ----- */
 /* --------------------------------------- */
 
+/*.work__box {
+    display: flex;
+    align-items: center;
+}
+*/
+
 .work__box {
     display: flex;
     align-items: center;
+    margin-top: 0; /* Ensure there is no margin on top */
+    padding-top: 0; /* Ensure there is no padding on top */
+    position: relative; /* Allow for absolute positioning if needed */
+    top: 0; /* Ensure the element starts at the top */
 }
 
 @media(max-width: 900px) {
